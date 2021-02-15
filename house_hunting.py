@@ -4,9 +4,9 @@ portion_saved = float(input("Enter the percent of your salary to save, in decima
 
 total_cost = float(input("Enter the cost of the home you want to buy: "))
 
-portion_down_payment = float(input("Enter percent downpayment needed in decimal form (ie 25% = 25): "))
+portion_down_payment = float(input("Enter percent downpayment needed in decimal form (ie 25% = .25): ") or .25)
 
-r = float(input("Enter the expected annual rate of return as a decimal (ie 4% = .04): "))
+r = float(input("Enter the expected annual rate of return as a decimal (ie 4% = .04): ") or .04)
 
 
 current_savings = 0
